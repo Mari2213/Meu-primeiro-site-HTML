@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clientes">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#arquitetura">Arquiteruta Clients-Servers</a></li>
+        <li><a href="#web">Alojamento Web</a></li>
+        <li><a href="#HTML">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia">História dos computadores</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p> O computador é um equipamento que a maioria das pessoas utiliza. Seja para trabalho ou lazer, ele está presente em grande parte das residências e dos estabelecimentos. No entanto, você conhece a sua trajetória? Então, continue a leitura para saber mais sobre a evolução dos computadores.</p>
+    <p> Não é de hoje que vemos a evolução dos computadores, desde o seu tamanho até mesmo outras características que vão se diferenciando entre si ao longo dos anos.</p>
+    <p> Hoje em dia, diversos aparelhos cabem nas nossas mãos e, independente de suas dimensões, oferecem-nos uma infinidade de benefícios.</p>
+
+    <h3>O primeiro dos primeiros na evolução dos computadores</h3>
+    <p>O primeiro computador foi criado entre 1943 e 1946 e se chamava <strong>Eletronic Numerical Integrator and Computer — ENIAC.</strong> Para o seu desenvolvimento, foi investido cerca de 6 milhões de dólares e seu funcionamento dependia de uma série de fatores, como 200 mil watts de energia.</p>
+    <center><img width="500" src="http://m.leiaja.com/sites/default/files/field/image/tecnologia/topo/2021/02/thumbnail_wikimedia_sakisbal_1_0.jpg" alt=""></center>
+    <center><p><i>Imagem do ENIAC Fonte: Internet</i></p></center>
+    <p>Um fator de grande importância é a memória, algo que não tinha na época do <strong>ENIAC.</strong> Cerca de 10 anos depois, foi lançado o <strong>RAMAX 305</strong>, uma máquina de armazenamento em disco feito pela <strong>IBM.</strong> No começo, só empresas e certas instituições faziam uso de um computador e, com o passar do tempo, essa tecnologia seria acessada por todos.</p>
+    
+    <h3>Sistema operacional</h3>
+    <p>Por volta de 1980, a <strong>IBM</strong> liderava o ramo da computação com o desenvolvimento do sistema operacional <strong>86-DOS</strong> e a <strong>Microsoft</strong> começava a desenvolver suas ideias e ofereceu o seu próprio sistema operacional para a <strong>IBM</strong>. Ao fechar o acordo, Bill Gates comprou o <strong>86-DOS 1.10</strong> da IBM e o sistema operacional acabou sendo propriedade exclusiva da Microsoft.</p>
+    <p>A Microsoft acabou vendendo também o seu sistema operacional para outras empresas, garantindo assim a evolução dos computadores para as pessoas.</p>
+
+    <h2 id="clientes">O que são <i>Clients</i>?</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p><strong>"Cliente"</strong> é um termo empregado em computação e representa uma entidade que consome os serviços de uma outra entidade servidora, em geral através do uso de uma rede de computadores numa arquitetura cliente-servidor.</p>
+    <center><img width="400" src="https://miro.medium.com/max/519/0*BA3wjut8Qav7xhn9.png" alt=""></center>
+    <center><p><i>Imagem de clientes Fonte: Internet</i></p></center>
+    <p><i>Fat client</i>, ou <strong>cliente gordo</strong> em português, são computadores numa rede cliente-servidor que dispõem de recursos suficientes para realizar boa parte das tarefas de modo independente de um servidor.</p>
+    <p><i>Thin client</i>, ou <strong>cliente magro</strong> em português, são computadores numa rede cliente-servidor que são totalmente dependentes de um servidor para realizar suas atividades. Podem ser inclusive diskless (sem disco rígido), o que os torna dependentes do servidor inclusive para carregar o sistema operacional.</p>
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>O servidor, de forma simples, pode ser considerado uma espécie de computador, o qual contém um ou mais processadores potentes, que operam de forma semelhante às máquinas domésticas, permitindo <u>processamento de dados</u> e execução de soluções solicitadas pela pessoa usuária.</p>
+    <center><img width="400" src="https://cdn.vivomeunegocio.com.br/vivo-b2b/wp-content/uploads/2022/04/18175620/GettyImages-147456329-1024x681.jpg" alt="Imagem de servidor"></center>
+    <center><p><i>Imagem de um servidor Fonte: Internet</i></p></center>
+    <p>As diferenças são, principalmente, no campo da potência de cada uma delas: um servidor tem mais potência do que os nossos desktops e notebooks. As imagens difundidas de datacenters, muitas vezes, mostram uma série de servidores que se assemelham aos desktops que muitos ainda têm em casa. Por isso, não raro, muitas pessoas leigas associam esses dois elementos.</p>
+    <p>Os servidores surgiram diante da necessidade de ter computadores de rede para usos específicos, principalmente para oferecer serviços de forma centralizada. Dessa forma torna-se desnecessária, por exemplo, a instalação de uma ferramenta em cada máquina de uma empresa — basta que ela seja executado no servidor e os diversos computadores estejam conectados em rede com ele para que possam obter os resultados.</p>
+    <p>Alguns exemplos de uso de servidores podem ser:
+        <ul>
+            <li>hospedagem de internet;</li>
+            <li>armazenamento de arquivo local;</li>
+            <li>fornecimento de aplicações ERP para a organização;</li>
+            <li>serviços de e-mail;</li>
+            <li>serviços de bancos de dados;</li>
+            <li>sistemas de pagamento;</li>
+            <li>aplicações de telefonia</li>
+            <li>uso de Internet das Coisas (Internet of Things ou IoT), entre outros.</li>
+        </ul>
+    </p>
+
+    <h2 id="arquitetura">Arquiteruta Clients-Servers</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>Esse modelo permite a aplicação distribuída de tarefas e funções de trabalho entre clientes e o servidor, sendo uma das ideias centrais da computação de rede. Isso porque ela permite sistemas de roteamento e acesso centralizado das informações que circulam no local.</p>
+    <p>Trata-se, assim, de uma arquitetura de aplicação distribuída em módulos. O servidor se ocupa, nessa arquitetura, pela manutenção dos dados, enquanto o cliente obtém as informações e encaminha-as ao local de armazenamento.</p>
+    <center><img width="400" src="https://miro.medium.com/max/1200/1*hnMUcqzS7B4kOgZEfhFWPw.png" alt=""></center>
+    <center><p><i>Imagem de Clients-Servers Fonte: Internet</i></p></center>
+
+    <h2 id="web">Alojamento web</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>Outro termo comumente utilizado, quando falamos em servidores, diz respeito ao alojamento web. Isso está atrelado com a hospedagem de sites. Imagine se, por exemplo, toda pessoa que quisesse ter um site necessitasse ter o seu próprio servidor. Trabalhoso, não é?</p>
+    <p>Para sanar a questão, surge o conceito de alojamento web. Ou seja, uma empresa que oferece o serviço para que alguém possa hospedar seu site no local, evitando a confecção de servidor próprio.</p>
+    <center><img width="500" src="https://cdn.melhoreshospedagemdesites.com/wp/wp-content/uploads/2019/04/melhor-hospedagem-de-site-hostgator.jpg" alt=""></center>
+    <center><p><i>Imagem dos planos para hospedagem de sites da Hostgator Fonte: <a href="https://visaoreal.com.br/os-4-melhores-servicos-de-hospedagem-de-site/" target="_blank">https://visaoreal.com.br/os-4-melhores-servicos-de-hospedagem-de-site/</a></i></p></center>
+
+    <h2 id="HTML">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>Um documento HTML válido precisa seguir obrigatoriamente a estrutura composta pelas tags <strong>html, head e body</strong> e a instrução <strong>!DOCTYPE</strong>. Esta estrutura está informada em uma documentação que descreve todos os detalhes do HTML, no caso as tags e atributos, e como os navegadores devem considerar e interpretar estas tags, esta documentação é chamada de "especificação do HTML", e através do que está declarado nela que é possível entender se um documento HTML válido. Um documento HTML inválido é carregado pelo navegador, porém em um <i>"modo de compatibilidade"</i></p>
+    <p>Abaixo, vamos conhecer em detalhes cada uma das tags estruturais obrigatórias:</p>
+    <h3>A tag html</h3>
+    <p>Na estrutura do nosso documento, antes de começar a colocar o conteúdo, inserimos uma tag html. Dentro dessa tag, é necessário declarar outras duas tags: head e body. Essas duas tags são "irmãs", pois estão no mesmo nível hierárquico em relação à sua tag "mãe", que é html.</p>
+    <img width="400" src="Capturar.PNG">
+    <p><i>Imagem da tag html Fonte: <a href="https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html#:~:text=Um%20documento%20HTML%20v%C3%A1lido%20precisa,DOCTYPE%3E%20." target="_blank">https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html#:~:text=Um%20documento%20HTML%20v%C3%A1lido%20precisa,DOCTYPE%3E%20.</a></i></p>
+    <h3>A tag head</h3>
+    <p>A tag head contém informações sobre o documento HTML que são de interesse somente do navegador e para outros serviços da web, e não para as pessoas que vão acessar nosso site. São informações que não serão exibidas diretamente no navegador, também podemos considerar um local onde informamos os metadados sobre a página.</p>
+    <p>A especificação do HTML obriga a presença da tag de conteúdo title dentro da head, permitindo definir o título do documento, que poder ser visto na barra de título ou aba da janela do navegador. Caso contrário, a página não será um documento HTML válido.</p>
+    <h3>A tag body</h3>
+    <p>A tag body contém o corpo de um documento HTML, que é exibido pelo navegador em sua janela, ou seja, todo o conteúdo visível do site. É necessário que o body tenha ao menos um elemento "filho", ou seja, uma ou mais tags HTML dentro dele.</p>
+    <img width="300" src="Capturar1.PNG" alt="">
+    <p><i>Imagem da tag body Fonte: <a href="https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html#:~:text=Um%20documento%20HTML%20v%C3%A1lido%20precisa,DOCTYPE%3E%20." target="_blank">https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html#:~:text=Um%20documento%20HTML%20v%C3%A1lido%20precisa,DOCTYPE%3E%20.</a></i></p>
+    <h3>A instrução DOCTYPE</h3>
+    <p>O DOCTYPE não é uma tag HTML, mas uma instrução especial. Ela indica para o navegador qual versão do HTML deve ser utilizada para exibir a página. Quando não colocamos essa instrução a página é exibida numa espécie de "modo de compatibilidade" na qual algumas tags e estilizações não funcionam 100% corretamente. Principalmente as tags e estilizações mais atuais (lançadas na versão 5 do HTML). Inclusive é possível ver a diferença na folha de estilos padrão que o navegador usa quando não colocamos essa instrução.</p>
+
+    <h2 id="ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <h3>Listas Não Ordenadas</h3>
+    <p>Uma lista não ordenada é uma lista de itens. As listas de itens são marcadas com bullets (tipicamente pequenos círculos pretos).</p>
+    <p>Uma lista não ordenada começa com a tag ul. Cada item da lista começa com a tag li.</p>
+    <img width="400" src="Capturar2.PNG" alt="">
+    <p><i>Imagem de uma lista não ordenada Fonte: <a href="http://www.clem.ufba.br/tuts/html/c10.htm" target="_blank">http://www.clem.ufba.br/tuts/html/c10.htm</a></i></p>
+    <p>Dentro de um item de uma lista você pode colocar parágrafos, quebras de linha, imagens, vínculos, outras listas, etc.</p>
+    <h3>Listas ordenadas</h3>
+    <p>Uma lista ordenada é também uma lista de itens. As listas de itens são marcadas com números. Uma lista ordenada começa com a tag ol. Cada item da lista começa com a tag li.</p>
+    <img width="400" src="Capturar3.PNG" alt="">
+    <p><i>Imagem de uma lista ordenada Fonte: <a href="http://www.clem.ufba.br/tuts/html/c10.htm" target="_blank">http://www.clem.ufba.br/tuts/html/c10.htm</a></i></p>
+    <p>Dentro de um item de uma lista você pode colocar parágrafos, quebras de linha, imagens, vínculos, outras listas, etc.</p>
+
+    <h2 id="links">Links de referências</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p></p>
+    <ul>
+        <li><a href="http://dio.me" target="_blank">http://dio.me</a></li>
+        <li><a href="http://w3c.org" target="_blank">http://w3c.org</a></li>
+    </ul>
+
+</body>
+</html>
